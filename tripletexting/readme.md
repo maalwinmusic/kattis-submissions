@@ -9,8 +9,8 @@ Output one string t, the original word.
 
 |# | Sample Input | Sample Output
 | - | - | - | 
-| 1 | hellohrllohello | __hello__
-| 2 |  hejhejhej | __hej__
+| 1 | hellohrllohello | hello
+| 2 |  hejhejhej | hej
 
 ## Submission
 ### Meta Data
