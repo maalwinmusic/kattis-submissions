@@ -6,7 +6,7 @@ Welcome to my personal collection of submissions to various Kattis programming p
 >
 > I highly recommend participating, as not only is it a great way to challenge oneself but you are certain to learn and pick up many new things along the way.
 
-[clicking here]:https://open.kattis.com/new
+[clicking here]:https://open.kattis.com/
 
 ## Repository Structure
 
