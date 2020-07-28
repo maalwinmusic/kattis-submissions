@@ -7,15 +7,15 @@ The input consists of one string s containing lower case English letters (3≤|s
 ### Output
 Output one string t, the original word.
 
-|# | Sample Input | Sample Output
+|#| Sample Input | Sample Output
 | - | - | - | 
-| 1 | hellohrllohello | __hello__
-| 2 |  hejhejhej | __hej__
+| 1 | hellohrllohello | hello
+| 2 |  hejhejhej | hej
 
 ## Submission
 ### Meta Data
-|# | Language | Runtime | Date | ID
-| - | - | - |  - | - |
+|#| Language | Runtime | Date | ID
+| - | - | - | - | - |
 | 1 | JavaScript (Node.js) | 0.42 s | 2020-07-25 01:33:10 | 5885895
 
 ### Source Code
