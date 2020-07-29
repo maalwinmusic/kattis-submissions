@@ -7,10 +7,10 @@ const rl = readline.createInterface({
 
 let m;
 let inputs = [];
-let operators = ["*", "/", "+", "-"];
+let op = ["*", "/", "+", "-"];
 
 rl.on('line', (line) => {
-    m ? inputs.push(line) : m = +line;
+    m ? inputs.push(+line) : m = +line;
     if (inputs.length == m) {
         let output = "";
         for (let i = 0; i < m; i++) {
@@ -23,13 +23,10 @@ rl.on('line', (line) => {
 function getSolution(n) {
     let str = [];
     for (let i = 0; i < 4; i++) {
-        let op1 = operators[i];
         for (let j = 0; j < 4; j++) {
-            let op2 = operators[j];
             for (let k = 0; k < 4; k++) {
-                let op3 = operators[k]
-                str = `4 ${op1} 4 ${op2} 4 ${op3} 4`;
-                if (+eval(`${Math.abs(n) == 4 ? str.replace("4 / 4 / 4 ", "Math.floor(4 / 4 / 4)") : str}`) == +n) {
+                str = `4 ${op[i]} 4 ${op[j]} 4 ${op[k]} 4`;
+                if (+eval(`${Math.abs(n) == 4 ? str.replace("4 / 4 / 4 ", "Math.floor(4 / 4 / 4)") : str}`) == n) {
                     return str + ` = ${n}`;
                 }
             }
