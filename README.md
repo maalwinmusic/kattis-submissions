@@ -35,3 +35,5 @@ The folder contains the following files:
 | [cetvrta](https://open.kattis.com/problems/cetvrta) | JavaScript (Node.js) | 0.42 s | 2020-07-28 	16:04:57 | [5896619](https://github.com/winsjmedia/kattis-submissions/tree/master/cetvrta) |
 | [fizzbuzz](https://open.kattis.com/problems/fizzbuzz) | JavaScript (Node.js) | 0.42 s | 2020-07-28 16:23:04 | [5896670](https://github.com/winsjmedia/kattis-submissions/tree/master/fizzbuzz) |
 | [4thought](https://open.kattis.com/problems/4thought) | JavaScript (Node.js) | 0.43 s | 2020-07-29 	03:52:30 | [5897831](https://github.com/winsjmedia/kattis-submissions/tree/master/4thought) |
+| [whatdoesthefoxsay](https://open.kattis.com/problems/whatdoesthefoxsay) | JavaScript (Node.js) | 0.42 s | 2020-07-30 02:29:59 | [5900604](https://github.com/winsjmedia/kattis-submissions/tree/master/whatdoesthefoxsay) |
+| [sevenwonders](https://open.kattis.com/problems/sevenwonders) | JavaScript (Node.js) | 0.42 s | 2020-07-30 02:51:34 | [5900620](https://github.com/winsjmedia/kattis-submissions/tree/master/sevenwonders) |
